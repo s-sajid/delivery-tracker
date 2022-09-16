@@ -31,7 +31,7 @@ const TabNavigator = () => {
                     return (
                         <Icon 
                             name= 'users'
-                            type= 'entypo'
+                            type= 'feather'
                             color= {focused ? '#59C1CC' : 'gray'}
                         />
                     );
