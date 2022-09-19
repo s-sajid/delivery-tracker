@@ -30,30 +30,6 @@
   display: none
 }
 
-.h-64 {
-  height: 16rem
-}
-
-.h-full {
-  height: 100%
-}
-
-.h-12 {
-  height: 3rem
-}
-
-.w-full {
-  width: 100%
-}
-
-.w-10 {
-  width: 2.5rem
-}
-
-.w-64 {
-  width: 16rem
-}
-
 .border {
   border-width: 1px
 }
@@ -76,27 +52,10 @@
   padding-bottom: 0px
 }
 
-.pb-5 {
-  padding-bottom: 1.25rem
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem
-}
-
 .uppercase {
   text-transform: uppercase
 }
 
 .capitalize {
   text-transform: capitalize
-}
-
-.text-blue-500 {
-  --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity))
 }

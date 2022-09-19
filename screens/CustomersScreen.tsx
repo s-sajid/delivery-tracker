@@ -30,7 +30,6 @@ const CustomersScreen = () => {
         source= {require('../images/CustomersScreenHeader.jpeg')} 
         style= {{ width: 400, height: 250 }}
       />
-
       <Input 
         placeholder='Search by Customer' 
         value= {input} 
