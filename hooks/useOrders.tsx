@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useQuery } from '@apollo/client';
 import { GET_ORDERS } from '../graphql/queries';
 
-const useCustomerOrders = () => {
+const useOrders = () => {
     const { loading, error, data } = useQuery(GET_ORDERS);
     const [orders, setOrders] = useState<Order[]>([]);
   
@@ -18,7 +18,7 @@ const useCustomerOrders = () => {
             Address: value.Address,
             City: value.City,
             Lat: value.Lat,
-            Lng: value.Lng
+            Lng: value.Lng,
       }));
 
       setOrders(orders);
@@ -27,4 +27,4 @@ const useCustomerOrders = () => {
     return ({ loading, error, orders });
 }
 
-export default useCustomerOrders;
+export default useOrders;
