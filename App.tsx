@@ -4,9 +4,10 @@ import utilities from './tailwind.json';
 import { NavigationContainer } from '@react-navigation/native';
 import RootNavigator from './navigator/RootNavigator';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
+import apolloUri from './config/env';
 
 const client = new ApolloClient({
-  uri: 'http://localhost:5001/api/delivery-tracker',
+  uri: `${apolloUri}`,
   cache: new InMemoryCache(),
 });
 
