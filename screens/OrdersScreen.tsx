@@ -36,20 +36,19 @@ const OrdersScreen = () => {
   }, []);
 
   return (
-    <ScrollView style={{ backgroundColor: "#EB6A7C" }}>
+    <ScrollView style={{ backgroundColor: "#EC6C8D" }}>
       <Image
         source={require("../images/OrdersScreenHeader.jpeg")}
-        style={{ width: 400, height: 250 }}
+        style={[tw("mt-7"), { width: 400, height: 250 }]}
       />
 
       <View>
         <Button
           color="pink"
           titleStyle={{ color: "gray", fontWeight: "400" }}
-          // style= {tw('py-2 px-5')}
           onPress={() => setAscending(!ascending)}
         >
-          {ascending ? "Showing: Olders First" : "Showing: Most Recent First"}
+          {ascending ? "Showing: Oldest First" : "Showing: Most Recent First"}
         </Button>
 
         {orders
@@ -61,7 +60,7 @@ const OrdersScreen = () => {
             }
           })
           .map((order) => (
-            <OrderCard key={order.trackingId} />
+            <OrderCard key={order.trackingId} item={order} />
           ))}
       </View>
     </ScrollView>
