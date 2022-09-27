@@ -46,6 +46,12 @@
 			"marginRight": "auto"
 		}
 	},
+	"-mx-1": {
+		"style": {
+			"marginLeft": -4,
+			"marginRight": -4
+		}
+	},
 	"mb-5": {
 		"style": {
 			"marginBottom": 20
@@ -74,6 +80,16 @@
 	"mt-7": {
 		"style": {
 			"marginTop": 28
+		}
+	},
+	"-mt-3": {
+		"style": {
+			"marginTop": -12
+		}
+	},
+	"-mt-2": {
+		"style": {
+			"marginTop": -8
 		}
 	},
 	"block": {
@@ -106,6 +122,11 @@
 			"flexDirection": "row"
 		}
 	},
+	"items-start": {
+		"style": {
+			"alignItems": "flex-start"
+		}
+	},
 	"items-center": {
 		"style": {
 			"alignItems": "center"
@@ -127,6 +148,14 @@
 			"borderTopRightRadius": 8,
 			"borderBottomRightRadius": 8,
 			"borderBottomLeftRadius": 8
+		}
+	},
+	"rounded-none": {
+		"style": {
+			"borderTopLeftRadius": 0,
+			"borderTopRightRadius": 0,
+			"borderBottomRightRadius": 0,
+			"borderBottomLeftRadius": 0
 		}
 	},
 	"border": {

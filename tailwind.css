@@ -36,6 +36,11 @@
   margin-right: auto
 }
 
+.-mx-1 {
+  margin-left: -0.25rem;
+  margin-right: -0.25rem
+}
+
 .mb-5 {
   margin-bottom: 1.25rem
 }
@@ -58,6 +63,14 @@
 
 .mt-7 {
   margin-top: 1.75rem
+}
+
+.-mt-3 {
+  margin-top: -0.75rem
+}
+
+.-mt-2 {
+  margin-top: -0.5rem
 }
 
 .block {
@@ -84,6 +97,10 @@
   flex-direction: row
 }
 
+.items-start {
+  align-items: flex-start
+}
+
 .items-center {
   align-items: center
 }
@@ -98,6 +115,10 @@
 
 .rounded-lg {
   border-radius: 0.5rem
+}
+
+.rounded-none {
+  border-radius: 0px
 }
 
 .border {

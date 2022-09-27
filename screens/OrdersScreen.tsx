@@ -39,7 +39,7 @@ const OrdersScreen = () => {
     <ScrollView style={{ backgroundColor: "#EC6C8D" }}>
       <Image
         source={require("../images/OrdersScreenHeader.jpeg")}
-        style={[tw("mt-7"), { width: 400, height: 250 }]}
+        style={[tw("mt-7"), { width: 400, height: 200 }]}
       />
 
       <View>
