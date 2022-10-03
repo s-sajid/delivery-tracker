@@ -39,10 +39,10 @@ The technologies used for this project include:
 
 Images of the delivery tracker in IOS with sample data
 
-![Customer Tab Screenshot](/images/screenshots/ios1.PNG)
+<img src="./images/screenshots/ios1.PNG" alt="Customer Tab Screenshot" width="250">
 
-![Customer Map Screenshot](/images/screenshots/ios2.PNG)
+<img src="./images/screenshots/ios2.PNG" alt="Customer Map Screenshot" width="250">
 
-![Orders Tab Screenshot](/images/screenshots/ios3.PNG)
+<img src="./images/screenshots/ios3.PNG" alt="Orders Tab Screenshot" width="250">
 
-![Orders Map Screenshot](/images/screenshots/ios4.PNG)
+<img src="./images/screenshots/ios4.PNG" alt="Orders Map Screenshot" width="250">
